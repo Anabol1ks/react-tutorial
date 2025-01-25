@@ -8,7 +8,6 @@ function StateVsRef(){
 	function handleKeyDown(event){
 		if (event.key === "Enter"){
 			event.preventDefault() // предотвращает отправку формы
-
 			setShow(true)
 		}else{
 			setShow(false)
